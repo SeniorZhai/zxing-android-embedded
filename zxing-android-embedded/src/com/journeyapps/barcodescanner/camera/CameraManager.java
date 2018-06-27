@@ -525,7 +525,7 @@ public final class CameraManager {
                 mediaRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
 
                 mediaRecorder.setOrientationHint(90);
-                CamcorderProfile camcorderProfile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
+                CamcorderProfile camcorderProfile = CamcorderProfile.get(CamcorderProfile.QUALITY_480P);
                 if (size != null) {
                     camcorderProfile.videoFrameWidth = size.width;
                     camcorderProfile.videoFrameHeight = size.height;
